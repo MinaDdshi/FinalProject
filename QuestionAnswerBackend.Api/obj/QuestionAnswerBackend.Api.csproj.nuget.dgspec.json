@@ -1,0 +1,351 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Api\\QuestionAnswerBackend.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Api\\QuestionAnswerBackend.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Api\\QuestionAnswerBackend.Api.csproj",
+        "projectName": "QuestionAnswerBackend.Api",
+        "projectPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Api\\QuestionAnswerBackend.Api.csproj",
+        "packagesPath": "C:\\Users\\MinaD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MinaD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Business\\QuestionAnswerBackend.Business.csproj": {
+                "projectPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Business\\QuestionAnswerBackend.Business.csproj"
+              },
+              "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Common\\QuestionAnswerBackend.Common.csproj": {
+                "projectPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Common\\QuestionAnswerBackend.Common.csproj"
+              },
+              "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Model\\QuestionAnswerBackend.Model.csproj": {
+                "projectPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Model\\QuestionAnswerBackend.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Business\\QuestionAnswerBackend.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Business\\QuestionAnswerBackend.Business.csproj",
+        "projectName": "QuestionAnswerBackend.Business",
+        "projectPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Business\\QuestionAnswerBackend.Business.csproj",
+        "packagesPath": "C:\\Users\\MinaD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MinaD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Common\\QuestionAnswerBackend.Common.csproj": {
+                "projectPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Common\\QuestionAnswerBackend.Common.csproj"
+              },
+              "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.DataAccess\\QuestionAnswerBackend.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.DataAccess\\QuestionAnswerBackend.DataAccess.csproj"
+              },
+              "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Model\\QuestionAnswerBackend.Model.csproj": {
+                "projectPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Model\\QuestionAnswerBackend.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Common\\QuestionAnswerBackend.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Common\\QuestionAnswerBackend.Common.csproj",
+        "projectName": "QuestionAnswerBackend.Common",
+        "projectPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Common\\QuestionAnswerBackend.Common.csproj",
+        "packagesPath": "C:\\Users\\MinaD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MinaD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Model\\QuestionAnswerBackend.Model.csproj": {
+                "projectPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Model\\QuestionAnswerBackend.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.0.2, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.DataAccess\\QuestionAnswerBackend.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.DataAccess\\QuestionAnswerBackend.DataAccess.csproj",
+        "projectName": "QuestionAnswerBackend.DataAccess",
+        "projectPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.DataAccess\\QuestionAnswerBackend.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\MinaD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MinaD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Common\\QuestionAnswerBackend.Common.csproj": {
+                "projectPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Common\\QuestionAnswerBackend.Common.csproj"
+              },
+              "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Model\\QuestionAnswerBackend.Model.csproj": {
+                "projectPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Model\\QuestionAnswerBackend.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Model\\QuestionAnswerBackend.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Model\\QuestionAnswerBackend.Model.csproj",
+        "projectName": "QuestionAnswerBackend.Model",
+        "projectPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Model\\QuestionAnswerBackend.Model.csproj",
+        "packagesPath": "C:\\Users\\MinaD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\MinaD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Hoorbakht.RedisService": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Sieve": {
+              "target": "Package",
+              "version": "[2.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

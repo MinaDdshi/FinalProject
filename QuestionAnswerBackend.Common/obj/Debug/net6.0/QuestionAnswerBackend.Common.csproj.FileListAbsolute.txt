@@ -1,0 +1,15 @@
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\bin\Debug\net6.0\QuestionAnswerBackend.Common.deps.json
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\bin\Debug\net6.0\QuestionAnswerBackend.Common.dll
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\bin\Debug\net6.0\QuestionAnswerBackend.Common.pdb
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\bin\Debug\net6.0\QuestionAnswerBackend.Model.dll
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\bin\Debug\net6.0\QuestionAnswerBackend.Model.pdb
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\obj\Debug\net6.0\QuestionAnswerBackend.Common.csproj.AssemblyReference.cache
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\obj\Debug\net6.0\QuestionAnswerBackend.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\obj\Debug\net6.0\QuestionAnswerBackend.Common.AssemblyInfoInputs.cache
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\obj\Debug\net6.0\QuestionAnswerBackend.Common.AssemblyInfo.cs
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\obj\Debug\net6.0\QuestionAnswerBackend.Common.csproj.CoreCompileInputs.cache
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\obj\Debug\net6.0\QuestionAnswerBackend.Common.csproj.CopyComplete
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\obj\Debug\net6.0\QuestionAnswerBackend.Common.dll
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\obj\Debug\net6.0\refint\QuestionAnswerBackend.Common.dll
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\obj\Debug\net6.0\QuestionAnswerBackend.Common.pdb
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\obj\Debug\net6.0\ref\QuestionAnswerBackend.Common.dll
