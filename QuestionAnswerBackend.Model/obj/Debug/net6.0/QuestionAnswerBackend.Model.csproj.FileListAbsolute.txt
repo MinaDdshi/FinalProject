@@ -1,0 +1,12 @@
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Model\bin\Debug\net6.0\QuestionAnswerBackend.Model.deps.json
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Model\bin\Debug\net6.0\QuestionAnswerBackend.Model.dll
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Model\bin\Debug\net6.0\QuestionAnswerBackend.Model.pdb
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Model\obj\Debug\net6.0\QuestionAnswerBackend.Model.csproj.AssemblyReference.cache
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Model\obj\Debug\net6.0\QuestionAnswerBackend.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Model\obj\Debug\net6.0\QuestionAnswerBackend.Model.AssemblyInfoInputs.cache
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Model\obj\Debug\net6.0\QuestionAnswerBackend.Model.AssemblyInfo.cs
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Model\obj\Debug\net6.0\QuestionAnswerBackend.Model.csproj.CoreCompileInputs.cache
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Model\obj\Debug\net6.0\QuestionAnswerBackend.Model.dll
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Model\obj\Debug\net6.0\refint\QuestionAnswerBackend.Model.dll
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Model\obj\Debug\net6.0\QuestionAnswerBackend.Model.pdb
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Model\obj\Debug\net6.0\ref\QuestionAnswerBackend.Model.dll

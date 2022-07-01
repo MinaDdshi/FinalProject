@@ -1,0 +1,5 @@
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Api\obj\Debug\net6.0\QuestionAnswerBackend.Api.csproj.AssemblyReference.cache
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Api\obj\Debug\net6.0\QuestionAnswerBackend.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Api\obj\Debug\net6.0\QuestionAnswerBackend.Api.AssemblyInfoInputs.cache
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Api\obj\Debug\net6.0\QuestionAnswerBackend.Api.AssemblyInfo.cs
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Api\obj\Debug\net6.0\QuestionAnswerBackend.Api.csproj.CoreCompileInputs.cache

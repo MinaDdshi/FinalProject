@@ -1,0 +1,17 @@
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\bin\Debug\net6.0\QuestionAnswerBackend.DataAccess.deps.json
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\bin\Debug\net6.0\QuestionAnswerBackend.DataAccess.dll
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\bin\Debug\net6.0\QuestionAnswerBackend.DataAccess.pdb
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\bin\Debug\net6.0\QuestionAnswerBackend.Common.dll
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\bin\Debug\net6.0\QuestionAnswerBackend.Model.dll
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\bin\Debug\net6.0\QuestionAnswerBackend.Common.pdb
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\bin\Debug\net6.0\QuestionAnswerBackend.Model.pdb
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\obj\Debug\net6.0\QuestionAnswerBackend.DataAccess.csproj.AssemblyReference.cache
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\obj\Debug\net6.0\QuestionAnswerBackend.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\obj\Debug\net6.0\QuestionAnswerBackend.DataAccess.AssemblyInfoInputs.cache
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\obj\Debug\net6.0\QuestionAnswerBackend.DataAccess.AssemblyInfo.cs
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\obj\Debug\net6.0\QuestionAnswerBackend.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\obj\Debug\net6.0\QuestionAnswerBackend.DataAccess.csproj.CopyComplete
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\obj\Debug\net6.0\QuestionAnswerBackend.DataAccess.dll
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\obj\Debug\net6.0\refint\QuestionAnswerBackend.DataAccess.dll
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\obj\Debug\net6.0\QuestionAnswerBackend.DataAccess.pdb
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.DataAccess\obj\Debug\net6.0\ref\QuestionAnswerBackend.DataAccess.dll
