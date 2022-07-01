@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\QuestionAnswerBackend.Common\QuestionAnswerBackend.Common.csproj" />
+    <ProjectReference Include="..\QuestionAnswerBackend.DataAccess\QuestionAnswerBackend.DataAccess.csproj" />
+    <ProjectReference Include="..\QuestionAnswerBackend.Model\QuestionAnswerBackend.Model.csproj" />
+  </ItemGroup>
+
+</Project>
