@@ -4,6 +4,8 @@ C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\b
 C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\bin\Debug\net6.0\QuestionAnswerBackend.Model.dll
 C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\bin\Debug\net6.0\QuestionAnswerBackend.Model.pdb
 C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\obj\Debug\net6.0\QuestionAnswerBackend.Common.csproj.AssemblyReference.cache
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\obj\Debug\net6.0\QuestionAnswerBackend.Common.Messages.resources
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\obj\Debug\net6.0\QuestionAnswerBackend.Common.csproj.GenerateResource.cache
 C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\obj\Debug\net6.0\QuestionAnswerBackend.Common.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\obj\Debug\net6.0\QuestionAnswerBackend.Common.AssemblyInfoInputs.cache
 C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Common\obj\Debug\net6.0\QuestionAnswerBackend.Common.AssemblyInfo.cs

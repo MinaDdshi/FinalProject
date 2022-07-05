@@ -49,7 +49,7 @@ public class CustomExceptionFilter : ExceptionFilterAttribute
 				filterContext.HttpContext.User.Claims.SingleOrDefault(x =>
 					x.Type is "Username" or "preferred_username")?.Value ?? "نا مشخص";
 
-		_logger.Log(mongoLog.LogFullData(LogLevel.Error));
+		_logger.Log(mongoLog.LogFullData(NLog.LogLevel.Error));
 
 		filterContext.Result = new JsonResult(new SamanSalamatResponse
 		{
@@ -79,7 +79,7 @@ public class CustomExceptionFilter : ExceptionFilterAttribute
 				context.HttpContext.User.Claims.SingleOrDefault(x =>
 						x.Type is "Username" or "preferred_username")?.Value ?? "نا مشخص";
 
-		_logger.Log(mongoLog.LogFullData(LogLevel.Error));
+		_logger.Log(mongoLog.LogFullData(NLog.LogLevel.Error));
 
 		context.Result = new JsonResult(new SamanSalamatResponse
 		{

@@ -3,4 +3,5 @@ C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Web\obj\
 C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Web\obj\Debug\net6.0\QuestionAnswerBackend.Web.AssemblyInfoInputs.cache
 C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Web\obj\Debug\net6.0\QuestionAnswerBackend.Web.AssemblyInfo.cs
 C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Web\obj\Debug\net6.0\QuestionAnswerBackend.Web.csproj.CoreCompileInputs.cache
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Web\obj\Debug\net6.0\QuestionAnswerBackend.Web.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Web\obj\Debug\net6.0\QuestionAnswerBackend.Web.MvcApplicationPartsAssemblyInfo.cache
