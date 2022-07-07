@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace QuestionAnswerBackend.DataAccess.Migrations
 {
-    public partial class QuestionAnswerBackend : Migration
+    public partial class QuestionAnswer : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -183,86 +183,6 @@ namespace QuestionAnswerBackend.DataAccess.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
-
-            migrationBuilder.InsertData(
-                table: "Answers",
-                columns: new[] { "Id", "AnswerContent", "CreationDate", "Downvote", "IsCorrectAnswer", "LastUpdated", "QuestionId", "RankAnswer", "RankUser", "Upvote", "UserId" },
-                values: new object[,]
-                {
-                    { 1, "This is an Answer", new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(891), 1, false, new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(891), 0, 5, 5, 1, 2 },
-                    { 2, "This is an Answer", new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(905), 1, false, new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(905), 0, 5, 5, 1, 3 }
-                });
-
-            migrationBuilder.InsertData(
-                table: "Persons",
-                columns: new[] { "Id", "CreationDate", "Family", "LastUpdated", "Name" },
-                values: new object[,]
-                {
-                    { 1, new DateTime(2022, 7, 6, 0, 16, 36, 252, DateTimeKind.Local).AddTicks(9076), "Dadashi", new DateTime(2022, 7, 6, 0, 16, 36, 252, DateTimeKind.Local).AddTicks(9076), "Mina" },
-                    { 2, new DateTime(2022, 7, 6, 0, 16, 36, 252, DateTimeKind.Local).AddTicks(9084), "Mousavi", new DateTime(2022, 7, 6, 0, 16, 36, 252, DateTimeKind.Local).AddTicks(9084), "Mahsa" },
-                    { 3, new DateTime(2022, 7, 6, 0, 16, 36, 252, DateTimeKind.Local).AddTicks(9090), "Abedi", new DateTime(2022, 7, 6, 0, 16, 36, 252, DateTimeKind.Local).AddTicks(9090), "Zahra" }
-                });
-
-            migrationBuilder.InsertData(
-                table: "Questions",
-                columns: new[] { "Id", "CreationDate", "Downvote", "LastUpdated", "QuestionContent", "RankQuestion", "RankUser", "Upvote", "UserId" },
-                values: new object[,]
-                {
-                    { 1, new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(803), 1, new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(803), "This is a Question", 5, 5, 1, 2 },
-                    { 2, new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(818), 1, new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(818), "This is a Question", 5, 5, 1, 3 }
-                });
-
-            migrationBuilder.InsertData(
-                table: "Roles",
-                columns: new[] { "Id", "CreationDate", "Description", "LastUpdated", "Title" },
-                values: new object[,]
-                {
-                    { 1, new DateTime(2022, 7, 6, 0, 16, 36, 252, DateTimeKind.Local).AddTicks(8804), "Admin of Application", new DateTime(2022, 7, 6, 0, 16, 36, 252, DateTimeKind.Local).AddTicks(8804), "Admin" },
-                    { 2, new DateTime(2022, 7, 6, 0, 16, 36, 252, DateTimeKind.Local).AddTicks(9018), "User of Application", new DateTime(2022, 7, 6, 0, 16, 36, 252, DateTimeKind.Local).AddTicks(9018), "User" },
-                    { 3, new DateTime(2022, 7, 6, 0, 16, 36, 252, DateTimeKind.Local).AddTicks(9026), "User of Application", new DateTime(2022, 7, 6, 0, 16, 36, 252, DateTimeKind.Local).AddTicks(9026), "User" }
-                });
-
-            migrationBuilder.InsertData(
-                table: "CommentAnswers",
-                columns: new[] { "Id", "AnswerId", "Content", "CreationDate", "LastUpdated" },
-                values: new object[,]
-                {
-                    { 1, 1, "This is a Comment", new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(1041), new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(1041) },
-                    { 2, 1, "This is a Comment", new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(1050), new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(1050) }
-                });
-
-            migrationBuilder.InsertData(
-                table: "CommentQuestions",
-                columns: new[] { "Id", "Content", "CreationDate", "LastUpdated", "QuestionId" },
-                values: new object[,]
-                {
-                    { 1, "This is a Comment", new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(966), new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(966), 1 },
-                    { 2, "This is a Comment", new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(981), new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(981), 1 }
-                });
-
-            migrationBuilder.InsertData(
-                table: "UserRoles",
-                columns: new[] { "Id", "CreationDate", "LastUpdated", "RoleId", "UserId" },
-                values: new object[] { 2, new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(718), new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(718), 2, 2 });
-
-            migrationBuilder.InsertData(
-                table: "Users",
-                columns: new[] { "Id", "CreationDate", "LastUpdated", "Password", "PersonId", "Username" },
-                values: new object[,]
-                {
-                    { 1, new DateTime(2022, 7, 6, 0, 16, 36, 252, DateTimeKind.Local).AddTicks(9159), new DateTime(2022, 7, 6, 0, 16, 36, 252, DateTimeKind.Local).AddTicks(9159), "c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec", 1, "admin" },
-                    { 3, new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(234), new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(234), "a92c94283dabc8bfe1ff978d5900d889f56d173625afbfd512d726fddb57684ef47ac2ab754a696ef185a4c4babf0e1005a2bc27685c228e44f58485f40ec1aa", 2, "z.abedi" }
-                });
-
-            migrationBuilder.InsertData(
-                table: "UserRoles",
-                columns: new[] { "Id", "CreationDate", "LastUpdated", "RoleId", "UserId" },
-                values: new object[] { 1, new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(633), new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(633), 1, 1 });
-
-            migrationBuilder.InsertData(
-                table: "UserRoles",
-                columns: new[] { "Id", "CreationDate", "LastUpdated", "RoleId", "UserId" },
-                values: new object[] { 3, new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(729), new DateTime(2022, 7, 6, 0, 16, 36, 253, DateTimeKind.Local).AddTicks(729), 2, 3 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Answers_QuestionId",
