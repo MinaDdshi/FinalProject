@@ -32,7 +32,6 @@ try
 		.InjectBusinesses()
 		.InjectFluentValidation()
 		.InjectAutoMapper()
-		//.InjectRedisServices(builder.Configuration)
 		.InjectContentCompression();
 
 	var app = builder.Build();
@@ -62,7 +61,6 @@ try
 			if (app.Environment.IsDevelopment() || app.Environment.IsEnvironment("Testing"))
 				endpoints.MapHealthChecks("HealthCheck");
 			endpoints.MapControllers();
-			endpoints.MapRazorPages().RequireAuthorization();
 		});
 
 	await app.RunAsync();

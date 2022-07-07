@@ -16,6 +16,7 @@ using QuestionAnswerBackend.DataAccess.Contracts;
 using System.IO.Compression;
 using System.Resources;
 using System.Text.Json.Serialization;
+using QuestionAnswerBackend.Common;
 
 namespace QuestionAnswerBackend.Web;
 
@@ -44,10 +45,7 @@ internal static class DependencyInjectionExtension
 
     internal static IServiceCollection InjectContext(this IServiceCollection services,
         IConfiguration configuration, IWebHostEnvironment environment) =>
-        environment.IsDevelopment() || environment.IsEnvironment("Testing")
-            ? services.AddDbContextPool<QuestionAnswerBackendContext>(options =>
-                options.UseInMemoryDatabase("QuestionAnswer"))
-            : services.AddDbContextPool<QuestionAnswerBackendContext>(options =>
+        services.AddDbContextPool<QuestionAnswerBackendContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("QuestionAnswerBackendContext")));
 
     internal static IServiceCollection InjectNLog(this IServiceCollection services,
