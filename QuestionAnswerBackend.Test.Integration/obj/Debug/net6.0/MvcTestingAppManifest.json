@@ -1,0 +1,8 @@
+{
+  "QuestionAnswerBackend.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Api",
+  "QuestionAnswerBackend.Business, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Business",
+  "QuestionAnswerBackend.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Common",
+  "QuestionAnswerBackend.DataAccess, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.DataAccess",
+  "QuestionAnswerBackend.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Model",
+  "QuestionAnswerBackend.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\MinaD\\source\\repos\\QuestionAnswerBackend\\QuestionAnswerBackend.Web"
+}

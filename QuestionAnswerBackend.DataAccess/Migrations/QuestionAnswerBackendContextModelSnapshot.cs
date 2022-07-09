@@ -65,6 +65,36 @@ namespace QuestionAnswerBackend.DataAccess.Migrations
                     b.HasIndex("QuestionId");
 
                     b.ToTable("Answers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AnswerContent = "This is an Answer",
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9282),
+                            Downvote = 1,
+                            IsCorrectAnswer = false,
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9282),
+                            QuestionId = 1,
+                            RankAnswer = 5,
+                            RankUser = 5,
+                            Upvote = 1,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AnswerContent = "This is an Answer",
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9290),
+                            Downvote = 1,
+                            IsCorrectAnswer = false,
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9290),
+                            QuestionId = 1,
+                            RankAnswer = 5,
+                            RankUser = 5,
+                            Upvote = 1,
+                            UserId = 3
+                        });
                 });
 
             modelBuilder.Entity("QuestionAnswerBackend.Model.CommentAnswer", b =>
@@ -92,6 +122,24 @@ namespace QuestionAnswerBackend.DataAccess.Migrations
                     b.HasIndex("AnswerId");
 
                     b.ToTable("CommentAnswers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AnswerId = 1,
+                            Content = "This is a Comment",
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9344),
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9344)
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AnswerId = 1,
+                            Content = "This is a Comment",
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9349),
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9349)
+                        });
                 });
 
             modelBuilder.Entity("QuestionAnswerBackend.Model.CommentQuestion", b =>
@@ -119,6 +167,24 @@ namespace QuestionAnswerBackend.DataAccess.Migrations
                     b.HasIndex("QuestionId");
 
                     b.ToTable("CommentQuestions");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Content = "This is a Comment",
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9316),
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9316),
+                            QuestionId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Content = "This is a Comment",
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9321),
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9321),
+                            QuestionId = 1
+                        });
                 });
 
             modelBuilder.Entity("QuestionAnswerBackend.Model.Person", b =>
@@ -144,6 +210,32 @@ namespace QuestionAnswerBackend.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Persons");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(8441),
+                            Family = "Dadashi",
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(8441),
+                            Name = "Mina"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(8450),
+                            Family = "Mousavi",
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(8450),
+                            Name = "Mahsa"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(8454),
+                            Family = "Abedi",
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(8454),
+                            Name = "Zahra"
+                        });
                 });
 
             modelBuilder.Entity("QuestionAnswerBackend.Model.Question", b =>
@@ -181,6 +273,32 @@ namespace QuestionAnswerBackend.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Questions");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9247),
+                            Downvote = 1,
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9247),
+                            QuestionContent = "This is a Question",
+                            RankQuestion = 5,
+                            RankUser = 5,
+                            Upvote = 1,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9255),
+                            Downvote = 1,
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9255),
+                            QuestionContent = "This is a Question",
+                            RankQuestion = 5,
+                            RankUser = 5,
+                            Upvote = 1,
+                            UserId = 3
+                        });
                 });
 
             modelBuilder.Entity("QuestionAnswerBackend.Model.Role", b =>
@@ -206,6 +324,24 @@ namespace QuestionAnswerBackend.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Roles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(8351),
+                            Description = "Admin of Application",
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(8351),
+                            Title = "Admin"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(8402),
+                            Description = "User of Application",
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(8402),
+                            Title = "User"
+                        });
                 });
 
             modelBuilder.Entity("QuestionAnswerBackend.Model.User", b =>
@@ -237,6 +373,35 @@ namespace QuestionAnswerBackend.DataAccess.Migrations
                         .IsUnique();
 
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(8494),
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(8494),
+                            Password = "c7ad44cbad762a5da0a452f9e854fdc1e0e7a52a38015f23f3eab1d80b931dd472634dfac71cd34ebc35d16ab7fb8a90c81f975113d6c7538dc69dd8de9077ec",
+                            PersonId = 1,
+                            Username = "admin"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(8879),
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(8879),
+                            Password = "594223c6ca4e49db0e6efa915966d9030d84828dfd7f8d095b5cb36f377132b688338f7a8c63fdc06682c8e5e472238e6b1ce6a6aef9df64066d8be02183eb4a",
+                            PersonId = 2,
+                            Username = "m.mousavi"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(8966),
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(8966),
+                            Password = "a92c94283dabc8bfe1ff978d5900d889f56d173625afbfd512d726fddb57684ef47ac2ab754a696ef185a4c4babf0e1005a2bc27685c228e44f58485f40ec1aa",
+                            PersonId = 3,
+                            Username = "z.abedi"
+                        });
                 });
 
             modelBuilder.Entity("QuestionAnswerBackend.Model.UserRole", b =>
@@ -266,6 +431,32 @@ namespace QuestionAnswerBackend.DataAccess.Migrations
                     b.HasIndex("UserId");
 
                     b.ToTable("UserRoles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9199),
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9199),
+                            RoleId = 1,
+                            UserId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9210),
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9210),
+                            RoleId = 2,
+                            UserId = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreationDate = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9213),
+                            LastUpdated = new DateTime(2022, 7, 9, 13, 17, 11, 684, DateTimeKind.Local).AddTicks(9213),
+                            RoleId = 2,
+                            UserId = 3
+                        });
                 });
 
             modelBuilder.Entity("QuestionAnswerBackend.Model.Views.AnswerView", b =>
