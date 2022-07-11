@@ -2,6 +2,7 @@
 using QuestionAnswerBackend.Common.Helpers;
 using QuestionAnswerBackend.Model;
 using QuestionAnswerBackend.Model.Views;
+using Sieve.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace QuestionAnswerBackend.DataAccess.Context;
 
 public class QuestionAnswerBackendContext : DbContext
 {
-    public QuestionAnswerBackendContext(DbContextOptions options, Sieve.Services.ISieveProcessor sieveProcessor) : base(options) { }
+    public QuestionAnswerBackendContext(DbContextOptions options) : base(options) { }
 
     public DbSet<Role>? Roles { get; set; }
 

@@ -6,7 +6,7 @@ namespace QuestionAnswerBackend.Test.Integration;
 
 public class DummyDataDBInitializer
 {
-    public void Seed(QuestionAnswerBackendContext context, ISieveProcessor sieveProcessor)
+    public void Seed(QuestionAnswerBackendContext context)
     {
         context.Database.EnsureDeleted();
         context.Database.EnsureCreated();

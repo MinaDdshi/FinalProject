@@ -3,6 +3,7 @@ using QuestionAnswerBackend.Api.Base;
 using QuestionAnswerBackend.Business.Businesses;
 using QuestionAnswerBackend.Business.Contract;
 using QuestionAnswerBackend.Common.ViewModels;
+using QuestionAnswerBackend.DataAccess.Repositories;
 using QuestionAnswerBackend.Model;
 using System;
 using System.Collections.Generic;
@@ -16,7 +17,7 @@ public class QuestionController : BaseController<Question>
 {
 	private readonly QuestionBusiness? _questionBusiness;
 
-	public QuestionController(QuestionBusiness questionBusiness) : base(questionBusiness) =>
+    public QuestionController(QuestionBusiness questionBusiness) : base(questionBusiness) =>
 
 	_questionBusiness = questionBusiness;
 

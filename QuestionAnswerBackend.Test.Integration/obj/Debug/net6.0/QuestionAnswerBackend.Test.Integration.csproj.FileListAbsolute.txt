@@ -493,3 +493,5 @@ C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Test.Int
 C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Test.Integration\obj\Debug\net6.0\QuestionAnswerBackend.Test.Integration.pdb
 C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Test.Integration\obj\Debug\net6.0\QuestionAnswerBackend.Test.Integration.genruntimeconfig.cache
 C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Test.Integration\obj\Debug\net6.0\ref\QuestionAnswerBackend.Test.Integration.dll
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Test.Integration\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\MinaD\source\repos\QuestionAnswerBackend\QuestionAnswerBackend.Test.Integration\bin\Debug\net6.0\Moq.dll
